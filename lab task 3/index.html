@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Student Registration Form Using HTML</title>
+</head>
+<body>
+    <h1><b>Registration Form</b></h1>
+    <form action="#" method="post">
+        <fieldset>
+        
+            <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="Student ID">Student ID :</label>
+        <input type="Student ID" id="Student ID" name="Student ID"><br><br>
+        <label for="Email Address">Email Address:</label>
+        <input type="Email Address" id="Email Address" name="Email Address"><br><br>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="Phone Number" id="Phone Number" name="Phone Number"><br><br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label for="deparrtment">Department :</label>
+            <select name="department" id="department">
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE" selected>EEE</option>
+                <option value="BBA" selected>BBA</option>
+                <option value="CSE" selected>CSE</option>
+                <option value="English" selected>English</option>
+                <option value="Civil Engineering" selected>Civil Engineering</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Skills
+            </legend>
+            Programming Language :
+            <br><br>
+
+        
+        <input type="checkbox" id="C" name="C" value="C">
+        <label for="C">C</label>
+                <input type="checkbox" id="C++" name="C" value="C++">
+        <label for="C++">C++</label>
+                <input type="checkbox" id="Java" name="Java" value="Java">
+        <label for="Java">Java</label>
+                <input type="checkbox" id="Python" name="Python" value="Python">
+        <label for="Python">Python</label>
+         <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50" maxlength="200"></textarea>
+            <br>
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+            <br><br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" maxlength="200"></textarea>
+
+        </fieldset>
+        <br>
+
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+</body>
+</html>
