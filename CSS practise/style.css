@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    color: yellow;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #002b5c;
+}
+
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.notice {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.notice-box {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+}
+
+.campus {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.campus-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.campus-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.campus-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
